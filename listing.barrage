@@ -1,0 +1,40 @@
+# Axb Optimus Site
+
+> The public GitHub Pages site for Axb-Optimus, the humanoid built around predictive echo.
+
+## Purpose
+Explain the site as the public face of the robot repo, not the control loop itself. Source: fitzyracing1/axb-optimus-site.
+
+## How it works (plain English)
+1. Open the Pages site.
+2. Read what Axb-Optimus is.
+3. Follow the link to the control-loop repo if you want the code.
+
+## Key ideas
+- Pages site (the public page)
+- Axb-Optimus (the named robot)
+- Predictive echo (guess, act, hear, correct)
+
+## The actual code
+```
+# source: fitzyracing1/axb-optimus-site
+show_site()
+point_to_axb_optimus()
+```
+
+## Line-by-line translation
+1. show_site() → “open the public page”
+2. point_to_axb_optimus() → “send readers to the robot repo”
+
+## Decisions the program makes
+- If a visitor wants the story → stay on the site
+- If a visitor wants the loop → send them to axb-optimus
+
+## What a person would notice
+A public page in front of the robot code.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the Pages site, or the axb-optimus source.
